@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=0099FF&center=true&vCenter=true&width=940&lines=🏄+TAGHAZOUT+PLATFORM;Plateforme+Touristique+Intégrée+🌊;Book+•+Surf+•+Explore+Morocco+🇲🇦" alt="Typing SVG" />
 
 <br/>
 
