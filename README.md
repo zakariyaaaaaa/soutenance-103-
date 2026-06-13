@@ -1,164 +1,258 @@
-# 🏄 Taghazout — Plateforme Touristique Intégrée
+<div align="center">
 
-> Plateforme web complète de gestion touristique dédiée à la destination **Taghazout**, Maroc — développée dans le cadre du projet de fin d'études (Soutenance 103).
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=0099FF&center=true&vCenter=true&width=940&lines=🏄+TAGHAZOUT+PLATFORM;Plateforme+Touristique+Intégrée+🌊;Book+•+Surf+•+Explore+Morocco+🇲🇦" alt="Typing SVG" />
+
+<br/>
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0099FF,100:00D4FF&height=200&section=header&text=TAGHAZOUT&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=🌊%20Plateforme%20Touristique%20Intégrée%20•%20Taghazout%2C%20Maroc&descAlignY=60&descAlign=50)
+
+<br/>
+
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://php.net)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
+[![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
+
+<br/>
+
+![GitHub stars](https://img.shields.io/github/stars/zakariyaaaaaa/soutenance-103-?style=social)
+![GitHub forks](https://img.shields.io/github/forks/zakariyaaaaaa/soutenance-103-?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/zakariyaaaaaa/soutenance-103-?style=social)
+
+</div>
 
 ---
 
-## 📌 Description du Projet
-
-**Taghazout** est une application web full-stack qui centralise l'ensemble des services touristiques de la ville de Taghazout en une seule plateforme. Elle permet aux visiteurs de réserver des hôtels, restaurants et activités, de suivre des cours de surf, de payer en ligne et de communiquer en temps réel.
+<div align="center">
+  <h2>🌊 Une seule plateforme. Tous les services de Taghazout.</h2>
+  <p><i>Réservez un hôtel, inscrivez-vous à un cours de surf, explorez la carte, payez en ligne — tout en un.</i></p>
+</div>
 
 ---
 
-## ✨ Fonctionnalités Principales
+## 📖 À Propos
 
-### 👤 Côté Utilisateur
-- 🔐 Authentification sécurisée (JWT + bcryptjs)
-- 🏨 Réservation d'hôtels, restaurants et activités
-- 🏄 Inscription aux cours de surf
-- 💳 Paiement en ligne via **Stripe**
+**Taghazout** est une application web full-stack pensée pour **digitaliser l'expérience touristique** de la ville de Taghazout, joyau du littoral atlantique marocain. La plateforme centralise tous les services (hôtels, restaurants, activités, surf, paiement, chat) dans une interface moderne et fluide.
+
+> 🎓 Projet de Fin d'Études — **Soutenance 103** | Réalisé par **Zakaria Boutlane**
+
+---
+
+## ✨ Fonctionnalités
+
+<table>
+<tr>
+<td width="50%">
+
+### 👤 Espace Utilisateur
+- 🔐 Auth sécurisée (JWT + bcrypt)
+- 🏨 Réservation hôtels & restaurants
+- 🏄 Cours de surf (planning & inscription)
+- 🎯 Activités touristiques
+- 💳 Paiement en ligne **Stripe**
 - 💬 Chat en temps réel
-- 🗺️ Carte interactive (Leaflet.js)
-- ⭐ Système d'avis et de reviews
-- 🌍 Support multilingue (dossier `lang/`)
-- 🎖️ Programme de fidélité (Loyalty)
+- 🗺️ Carte interactive **Leaflet**
+- ⭐ Système d'avis & reviews
+- 🌍 Multilingue (FR / EN / AR)
+- 🎖️ Programme de fidélité
 
-### 🛠️ Côté Administrateur
-- Dashboard complet (admin panel)
-- Gestion des hôtels, restaurants, activités et cours de surf
-- Gestion des réservations et paiements
-- Gestion des utilisateurs et messages
-- Génération de rapports PDF (fpdf)
-- Statistiques avec Chart.js
+</td>
+<td width="50%">
+
+### 🛠️ Espace Administrateur
+- 📊 Dashboard + statistiques Chart.js
+- 🏨 Gestion hôtels / restaurants / activités
+- 🏄 Gestion des cours de surf
+- 📅 Suivi des réservations
+- 💰 Suivi des paiements
+- 📄 Génération factures **PDF** (FPDF)
+- 👥 Gestion des utilisateurs
+- 💬 Gestion des messages
+- ⚙️ Paramètres de la plateforme
+- 🔔 Gestion des notifications
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧰 Technologies Utilisées
+## 🧰 Stack Technique
+
+<div align="center">
 
 ### Backend
-| Technologie | Usage |
-|---|---|
-| **PHP** | Logique serveur principale |
-| **Node.js / Express** | API REST & serveur temps réel |
-| **MongoDB / Mongoose** | Base de données NoSQL |
-| **JWT** | Authentification sécurisée |
-| **bcryptjs** | Hachage des mots de passe |
-| **Multer** | Upload de fichiers |
-| **dotenv** | Gestion des variables d'environnement |
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcryptjs-338?style=flat-square&logoColor=white)
+![Multer](https://img.shields.io/badge/Multer-FF6600?style=flat-square&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=flat-square&logo=dotenv&logoColor=black)
 
 ### Frontend
-| Technologie | Usage |
-|---|---|
-| **HTML / CSS / JavaScript** | Interface utilisateur |
-| **GSAP** | Animations avancées |
-| **AOS** | Animations au scroll |
-| **Leaflet.js** | Carte interactive |
-| **Chart.js** | Tableaux de bord statistiques |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+![AOS](https://img.shields.io/badge/AOS-0099FF?style=flat-square&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)
 
-### Paiement & Stockage
-| Technologie | Usage |
-|---|---|
-| **Stripe** | Paiement en ligne sécurisé |
-| **FPDF** | Génération de factures PDF |
+### Paiement & PDF
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![FPDF](https://img.shields.io/badge/FPDF-CC0000?style=flat-square&logoColor=white)
+
+</div>
 
 ---
 
 ## 📁 Structure du Projet
 
 ```
-soutenance-103/
-├── admin/              # Panel d'administration
+🌊 soutenance-103/
+│
+├── 🔐 auth/                  # Authentification (login, register, JWT)
+├── 🏨 booking/               # Module de réservation
+├── 💬 chat/                  # Chat en temps réel
+├── 🗺️  map/                   # Carte interactive (Leaflet)
+├── 💳 payment/               # Intégration Stripe
+├── 👤 profile/               # Profil utilisateur
+├── 🌐 api/                   # API REST (Node.js / Express)
+├── 🗄️  database/              # Configuration MongoDB
+├── 🌍 lang/                  # Fichiers de traduction (FR/EN/AR)
+├── 📦 includes/              # Composants PHP partagés
+│
+├── 🛠️  admin/                 # Panel Administrateur
 │   ├── hotels/
 │   ├── restaurants/
 │   ├── activities/
 │   ├── bookings/
-│   ├── payments/
 │   ├── surf-courses/
-│   ├── loyalty/
+│   ├── payments/
 │   ├── users/
-│   └── reviews/
-├── api/                # API REST (Node.js/Express)
-├── auth/               # Authentification (login, register, JWT)
-├── booking/            # Module de réservation
-├── chat/               # Chat en temps réel
-├── map/                # Carte interactive (Leaflet)
-├── payment/            # Intégration Stripe
-├── profile/            # Gestion du profil utilisateur
-├── database/           # Configuration & connexion DB
-├── lang/               # Fichiers de traduction
-├── includes/           # Composants PHP partagés
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/         # (hotels, surf, restaurants, gallery...)
-│   ├── videos/
-│   └── libraries/      # AOS, GSAP, Chart.js, Leaflet, Stripe
-├── uploads/            # Fichiers uploadés par les utilisateurs
-└── vendor/             # Dépendances PHP (Stripe SDK)
+│   ├── reviews/
+│   ├── loyalty/
+│   └── messages/
+│
+├── 🎨 assets/
+│   ├── css/                  # Feuilles de style
+│   ├── js/                   # Scripts client
+│   ├── images/               # (hotels, surf, restaurants, gallery...)
+│   ├── videos/               # Vidéos de la plateforme
+│   └── libraries/            # AOS, GSAP, Chart.js, Leaflet, Stripe
+│
+├── 📤 uploads/               # Fichiers uploadés
+│   ├── hotels/
+│   ├── activities/
+│   ├── surf/
+│   ├── restaurants/
+│   ├── invoices/
+│   └── users/
+│
+└── 📚 vendor/                # Dépendances PHP (Stripe SDK)
 ```
 
 ---
 
-## ⚙️ Installation & Configuration
+## ⚙️ Installation
 
 ### Prérequis
-- PHP >= 7.4
-- Node.js >= 16
-- MongoDB
-- Compte Stripe (pour les paiements)
-
-### Étapes d'installation
 
 ```bash
-# 1. Cloner le dépôt
+PHP >= 7.4
+Node.js >= 16
+MongoDB
+Compte Stripe
+```
+
+### 🚀 Lancement
+
+```bash
+# 1️⃣  Cloner le projet
 git clone https://github.com/zakariyaaaaaa/soutenance-103-.git
 cd soutenance-103-
 
-# 2. Installer les dépendances Node.js
+# 2️⃣  Installer les dépendances Node.js
 npm install
 
-# 3. Configurer les variables d'environnement
+# 3️⃣  Configurer les variables d'environnement
 cp .env.example .env
-# Éditer .env avec vos clés (MongoDB URI, Stripe keys, JWT secret)
-
-# 4. Lancer le serveur Node.js
-node server.js
-
-# 5. Lancer le serveur PHP (XAMPP / WAMP ou PHP built-in)
-php -S localhost:8000
 ```
 
-### Variables d'environnement (.env)
+### 🔑 Configuration `.env`
+
 ```env
 MONGODB_URI=mongodb://localhost:27017/taghazout
-JWT_SECRET=your_jwt_secret_key
+JWT_SECRET=your_super_secret_key
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_PUBLIC_KEY=pk_test_...
 PORT=3000
 ```
 
+```bash
+# 4️⃣  Lancer l'API Node.js
+node server.js
+
+# 5️⃣  Lancer le serveur PHP
+php -S localhost:8000
+```
+
 ---
 
-## 🖼️ Aperçu des Pages
+## 🗺️ Pages de la Plateforme
 
-| Page | Description |
-|---|---|
-| `/` | Page d'accueil avec animations |
-| `/booking/` | Réservation d'hôtels et activités |
-| `/map/` | Carte interactive de Taghazout |
-| `/chat/` | Messagerie en temps réel |
-| `/profile/` | Espace utilisateur |
-| `/admin/` | Tableau de bord administrateur |
+| Route | Description |
+|-------|-------------|
+| `/` | 🏠 Accueil avec animations GSAP |
+| `/auth/` | 🔐 Connexion & Inscription |
+| `/booking/` | 📅 Réservation hôtels & activités |
+| `/map/` | 🗺️ Carte interactive Taghazout |
+| `/chat/` | 💬 Messagerie en temps réel |
+| `/profile/` | 👤 Espace personnel utilisateur |
+| `/payment/` | 💳 Paiement sécurisé Stripe |
+| `/admin/` | 🛠️ Tableau de bord administrateur |
+
+---
+
+## 🔐 Sécurité
+
+```
+✅ Authentification JWT stateless
+✅ Mots de passe hachés avec bcryptjs
+✅ Protection CORS configurée
+✅ Validation des uploads (type MIME + taille)
+✅ Transactions Stripe sécurisées (webhooks)
+✅ Variables sensibles dans .env (non commitées)
+```
 
 ---
 
 ## 👨‍💻 Auteur
 
-**Zakaria Boutlane**  
-Projet de Fin d'Études — Soutenance 103
+<div align="center">
+
+<img src="https://github.com/zakariyaaaaaa.png" width="100" style="border-radius:50%"/>
+
+### **Zakaria Boutlane**
+*Développeur Full-Stack*
+
+[![GitHub](https://img.shields.io/badge/GitHub-zakariyaaaaaa-181717?style=for-the-badge&logo=github)](https://github.com/zakariyaaaaaa)
+
+> 🎓 Projet de Fin d'Études — Soutenance 103 — 2024
+
+</div>
 
 ---
 
-## 📄 Licence
+<div align="center">
 
-Ce projet est réalisé dans un cadre académique. Tous droits réservés © 2024 Zakaria Boutlane.
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,100:0099FF&height=120&section=footer)
+
+**⭐ Si ce projet vous plaît, n'hésitez pas à laisser une étoile !**
+
+</div>
