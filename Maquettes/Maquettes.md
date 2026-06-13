@@ -139,7 +139,7 @@ L'objectif : offrir une expérience **rapide**, **sécurisée** et **intuitive**
 
 ### 🎨 Maquette Figma
 
-👉 **[Voir la maquette complète](https://www.figma.com/design/THQNT1UjzYcQwSPuRWNjWV/Untitled?node-id=0-1&m=dev&t=EnvAdKtgUx68xXrL-1)**
+👉 **[Voir la maquette complète](https://www.figma.com/design/THQNT1UjzYcQwSPuRWNjWV/Untitled?node-id=0-1&t=EnvAdKtgUx68xXrL-1)**
 
 ---
 
